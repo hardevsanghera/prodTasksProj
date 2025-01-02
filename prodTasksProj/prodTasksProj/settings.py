@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-v2&nry9^snwg+6emmjo-y2_*(*(d9y-0ff5a-i@=-=aur2@ybf'
+SECRET_KEY = 'MY_SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['MY_ALLOWED_HOSTS']
 
 
 # Application definition
@@ -79,8 +79,8 @@ DATABASES = {
         'ENGINE': 'mssql',
         'NAME': 'tasks',
         'USER': 'SA',
-        'PASSWORD': 'mySQLabcd0',
-        'HOST': '10.38.10.55',
+        'PASSWORD': 'DB_MY_PASSWORD',
+        'HOST': 'DB_MY_HOST',
         'PORT': '',
         'OPTIONS': {
             'driver': 'ODBC Driver 18 for SQL Server',
