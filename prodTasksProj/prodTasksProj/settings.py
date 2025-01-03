@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['MY_ALLOWED_HOSTS']
 # Application definition
 
 INSTALLED_APPS = [
+    'prodTaskApp',
     'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'prodTaskApp',
 ]
 
 MIDDLEWARE = [
